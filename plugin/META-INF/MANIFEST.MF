@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Active Learning Extras
+Bundle-SymbolicName: de.gab1one.active-learning-extras;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Activator: de.gab1one.knime.activelearning.Activator
+Bundle-Vendor: Gabriel Einsdorf
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core;bundle-version="[3.6.0,4.0.0)",
+ org.knime.workbench.repository;bundle-version="[3.6.0,4.0.0)",
+ org.knime.base;bundle-version="[3.6.0,4.0.0)",
+ org.knime.activelearning;bundle-version="[3.6.0,4.0.0)"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Export-Package: de.gab1one.knime.activelearning,
+ de.gab1one.knime.activelearning.variableloopend

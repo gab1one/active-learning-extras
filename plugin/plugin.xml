@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+      <extension
+            point="org.knime.workbench.repository.categories">
+         <category
+               description="Category containing extra Active Learning nodes"
+               icon="icons/AL.png"
+               level-id="al-extras"
+               name="Active Learning Extras"
+               path="/community">
+         </category>
+      </extension>
+
+    <extension point="org.knime.workbench.repository.nodes">
+        <node category-path="/community/al-extras" factory-class="de.gab1one.knime.activelearning.variableloopend.ActiveLearnVariableLoopEndNodeFactory"/>
+    </extension>
+
+</plugin>

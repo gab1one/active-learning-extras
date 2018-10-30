@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="active-learning.feature" version="1.0.0.qualifier">
+      <category name="KNIME Active Learning Extras"/>
+   </feature>
+   <feature id="active-learning.feature.source" version="1.0.0.qualifier">
+      <category name="KNIME Active Learning Extras Sources"/>
+   </feature>
+   <category-def name="KNIME Active Learning Extras" label="KNIME Active Learning Extras"/>
+   <category-def name="KNIME Active Learning Extras Sources" label="KNIME Active Learning Extras Sources"/>
+</site>

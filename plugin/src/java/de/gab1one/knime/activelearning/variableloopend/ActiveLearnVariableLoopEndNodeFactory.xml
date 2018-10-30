@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<knimeNode icon="loop-end.png" type="LoopEnd"
+	xmlns="http://knime.org/node/v2.12"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://knime.org/node/v2.12 http://knime.org/node/v2.12.xsd">
+	<name>Active Learn Variable Loop End</name>
+	<shortDescription>
+		Active Learn Loop End node that is controlled via a flow variable.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>T</intro>
+		<tab name="Node Options">
+
+			<option name="Class label column">
+				The column containing the class labels which are reported back to the
+				Active Learning Loop Start node.
+			</option>
+			<option name="Flow variable" optional="false">
+				The flow variable that
+				determines if the loop continues execution. The
+				variable's value must
+				be an integer of either 0 or 1.
+			</option>
+		</tab>
+	</fullDescription>
+
+	<ports>
+		<inPort name="Annotated Data" index="0">The row(s) annotated by the
+			Oracle
+		</inPort>
+		<inPort name="Pass through port" index="1"> The intended result of
+			the Active Learn Process
+		</inPort>
+		<outPort name="Pass through" index="0">The result of the Active
+			Learn Process
+		</outPort>
+	</ports>
+
+</knimeNode>
